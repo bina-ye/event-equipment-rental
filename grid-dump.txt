@@ -1,0 +1,20 @@
+﻿import EquipmentCard from "@/components/items/EquipmentCard"
+
+export default function FeaturedItemsGrid() {
+  return (
+    <section className="mx-auto max-w-6xl px-6 py-16">
+      <div className="mb-8 flex items-end justify-between">
+        <h2 className="text-2xl font-bold text-slate-900">
+          ×”×¤×¨×™×˜×™× ×”×ž×‘×•×§×©×™× ×‘×™×•×ª×¨
+        </h2>
+        <span className="text-sm text-slate-500">×ž×ª×¢×“×›×Ÿ ×©×‘×•×¢×™×ª</span>
+      </div>
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <EquipmentCard />
+        <EquipmentCard />
+        <EquipmentCard />
+        <EquipmentCard />
+      </div>
+    </section>
+  )
+}
